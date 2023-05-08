@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Creating readable stream
-const pathToFile = path.join(__dirname, 'text2.txt');
+const pathToFile = path.join(__dirname, 'text.txt');
 const readableStream = fs.createReadStream(pathToFile, 'utf-8');
 
 // Declaring Variables
